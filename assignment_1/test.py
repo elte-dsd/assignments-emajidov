@@ -1,6 +1,6 @@
 import string
 import random
-from count_min_sketch import CountMinSketch
+from assignment_1.count_min_sketch import CountMinSketch
 
 
 letters = string.ascii_uppercase
