@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85b6188a-7ebf-4186-b5f1-461126774fb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/externalDependencies.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Stream Mining.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Stream Mining.iml" afterDir="false" />
+    <list default="true" id="85b6188a-7ebf-4186-b5f1-461126774fb3" name="Default Changelist" comment="ppt added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment_3/DynamicWeightedMajority.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_3/DynamicWeightedMajority.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment_3/assignment_3.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment_3/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment_3/test.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/assignment_3/test.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +30,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assignment_3/DynamicWeightedMajority.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
+            <state relative-caret-position="-126">
               <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -345,7 +340,7 @@
       <workItem from="1575235317700" duration="3147000" />
       <workItem from="1575238499388" duration="909000" />
       <workItem from="1575239517239" duration="11939000" />
-      <workItem from="1575288702164" duration="7690000" />
+      <workItem from="1575288702164" duration="9114000" />
     </task>
     <task id="LOCAL-00001" summary="second hw done">
       <created>1569516669555</created>
@@ -368,11 +363,32 @@
       <option name="project" value="LOCAL" />
       <updated>1574988490701</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="completed, graphs added">
+      <created>1575323362832</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1575323362832</updated>
+    </task>
+    <task id="LOCAL-00005" summary="completed, graphs added">
+      <created>1575323525278</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1575323525278</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ppt added">
+      <created>1575325338779</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1575325338779</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100643000" />
+    <option name="totallyTimeSpent" value="102067000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -408,7 +424,9 @@
     <MESSAGE value="second hw done" />
     <MESSAGE value="third hw initial" />
     <MESSAGE value="prediction raises error in the base classifier" />
-    <option name="LAST_COMMIT_MESSAGE" value="prediction raises error in the base classifier" />
+    <MESSAGE value="completed, graphs added" />
+    <MESSAGE value="ppt added" />
+    <option name="LAST_COMMIT_MESSAGE" value="ppt added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Stream_Mining$test.coverage" NAME="test Coverage Results" MODIFIED="1575312276795" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/assignment_3" />
@@ -504,7 +522,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assignment_3/DynamicWeightedMajority.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
+        <state relative-caret-position="-126">
           <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
