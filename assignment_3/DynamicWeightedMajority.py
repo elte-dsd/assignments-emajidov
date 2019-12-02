@@ -31,14 +31,21 @@ class DynamicWeightedMajority:
         except NotFittedError as ex:
             return np.random.choice([0, 1])
 
-    def dwm(self, X, y):
+    def fit(self, X, y):
+        train_size = len(X)
+        x_test = X[int(train_size - train_size/6):train_size]
+        X = X[0:train_size - int(train_size / 6)]
+        y_test = y[int(train_size- train_size/6):train_size]
+        y = y[0:train_size - int(train_size / 6)]
         m = 1
         self.createExpert()
         num_classes = len(np.unique(y))
         predictions = np.zeros((num_classes,))
         max_weight = 0
         acc = []
+        nb_acc = []
         sizes =[]
+        nb = GaussianNB()
         for i, sample in enumerate(X):
             for j, exp in enumerate(self.experts):
                 y_hat = self.getExpertPrediction(exp,sample)
@@ -59,11 +66,15 @@ class DynamicWeightedMajority:
                 if y_hat != y[i]:
                     m = m + 1
                     self.createExpert()
+
+            nb.partial_fit([sample], [y[i]], np.unique(y))
+            nb_pred = nb.predict(x_test)
+            nb_acc.append(accuracy_score(y_test,nb_pred))
             for exp in self.experts:
                 exp.partial_fit([sample], [y[i]], np.unique(y))
             sizes.append(len(self.experts))
-            acc.append(accuracy_score(self.predict(X), y))
-        return sizes, acc
+            acc.append(accuracy_score(self.predict(x_test), y_test))
+        return sizes, acc, nb_acc
 
     def predict(self, X):
         try:
